@@ -49,11 +49,22 @@
 
 //VAR acessa dentro e fora, LET só acessa dentro do bloco
 
-function exemplo(){
-    if (true){
-        var num=100;
-        console.log("Dentro do bloco if", num)
+// function exemplo(){
+//     if (true){
+//         var num=100;
+//         console.log("Dentro do bloco if", num)
+//     }
+//     console.log("Dentro do bloco da função", num)
+// }
+// exemplo();
+
+//CRIE UM PROGRAMA PARA VERIFICAR SE UM NÚMERO É PAR 
+function verificaPar(numero){
+    if (numero % 2 === 0){
+        console.log("O numero é par")
     }
-    console.log("Dentro do bloco da função", num)
+   else{
+    console.log("o nuumero é impar")
+   }
 }
-exemplo();
+verificaPar(22)
