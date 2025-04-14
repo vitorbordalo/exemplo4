@@ -61,10 +61,10 @@
 //CRIE UM PROGRAMA PARA VERIFICAR SE UM NÚMERO É PAR 
 function verificaPar(numero){
     if (numero % 2 === 0){
-        console.log("O numero é par")
+        console.log("O número é par")
     }
    else{
-    console.log("o nuumero é impar")
+    console.log("O número é impar")
    }
 }
-verificaPar(22)
+verificaPar(20)
